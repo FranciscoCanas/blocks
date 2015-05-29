@@ -23,7 +23,7 @@ from fuel.datasets import IterableDataset
 from fuel.transformers import Batch, Mapping
 from fuel.schemes import ConstantScheme
 from blocks.extensions import FinishAfter, Timing, Printing
-from blocks.extensions.saveload import Load, Checkpoint
+from blocks.extensions.saveload import Checkpoint
 from blocks.extensions.monitoring import (TrainingDataMonitoring,
                                           DataStreamMonitoring)
 from blocks.main_loop import MainLoop
